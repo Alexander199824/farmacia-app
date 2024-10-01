@@ -1,0 +1,149 @@
+.register-account {
+    background: url(http://cdn.paper4pc.com/images/grunge-texture-wallpaper-5.jpg) no-repeat center top;
+    background-color: transparent;
+    background-size: cover;
+    padding: 200px 0 150px;
+    width: auto;
+}
+.register-account {
+    background-color: white; /* Fondo blanco para evitar espacios grises */
+    padding: 0;              /* Eliminamos cualquier padding */
+    margin-top: 0;           /* Sin margen superior */
+}
+
+/* Ajustamos el formulario */
+.login-form {
+    margin: 0; /* Sin margen */
+}
+/* Login Form CSS */
+.login-form input {
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 0.7em;
+    margin: 0.6em 0;
+    margin-bottom: 15px;
+}
+
+.login-form {
+    margin-bottom: 30px;
+}
+
+.signform {
+    background-color: #FFF;
+    padding: 35px 0 40px;
+    margin: 0 auto;
+}
+
+.bts {
+    padding: 2em;
+    margin: 0.6em 0;
+}
+
+.bts-a:hover {
+    color: #79b42b;
+    text-decoration: none;
+    background: white;
+}
+
+.bts span {
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+.social {
+    transition: background 200ms ease-in-out;
+    margin-top: 12px;
+    border-radius: 1px;
+    display: block;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fblogin {
+    background-color: #3b5898;
+}
+
+.fblogin:hover {
+    background-color: #5177c2;
+}
+
+.gplogin {
+    background-color: #dd4c39;
+}
+
+.gplogin:hover {
+    background-color: #f06e60;
+}
+
+.twlogin {
+    background-color: #00abee;
+}
+
+.twlogin:hover {
+    background-color: #4cbde6;
+}
+
+.login-form input:focus,
+.login-form input:active {
+    border-bottom: 2px solid #79B42B;
+    outline: none;
+}
+
+.subbt {
+    background-color: #79b42b;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: .9em;
+    border-radius: 3px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+.subbt:hover {
+    background-color: #79b42b;
+}
+
+.right a {
+    color: #b6b6b6;
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: .9em;
+    float: right;
+    margin-top: 5px;
+}
+
+.headit h4 {
+    color: #474646;
+}
+
+/* Media Query */
+@media screen and (min-width: 640px) {
+    .left {
+        width: 47%;
+        float: right;
+    }
+    .right {
+        width: 40%;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .left,
+    .right {
+        width: 100%;
+    }
+    .signform {
+        width: 50%;
+        min-width: 255px;
+    }
+}
